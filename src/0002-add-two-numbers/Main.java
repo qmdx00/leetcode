@@ -62,8 +62,9 @@ public class Main {
     static void traverseList(ListNode list) {
         ListNode head = list;
         while (head != null) {
-            System.out.println(head.val);
+            System.out.print(head.val);
             head = head.next;
         }
+        System.out.println();
     }
 }
