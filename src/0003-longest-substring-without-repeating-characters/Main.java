@@ -4,6 +4,9 @@
  * @id #0003
  */
 
+ /*
+  * This method timeout 
+  * O(n) = n^3
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int len = s.length();
@@ -26,10 +29,19 @@ class Solution {
         return false;
     }
 }
+*/
+
+class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        int len = s.length();
+        
+        return len;
+    }
+}
 
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.lengthOfLongestSubstring("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"));
+        System.out.println(solution.lengthOfLongestSubstring("wwpkew"));
     }
 }
