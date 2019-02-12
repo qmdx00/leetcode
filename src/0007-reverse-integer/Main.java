@@ -1,6 +1,6 @@
 /**
  * @author yuanweimin(aszed)
- * @title 整数反转
+ * @title reverse-integer
  * @id #0007
  */
 

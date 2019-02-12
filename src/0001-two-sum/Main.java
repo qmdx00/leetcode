@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 /**
  * @author yuanweimin(aszed)
- * @title 两数之和
+ * @title two-sum
  * @id #0001
  */
 
