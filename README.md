@@ -11,4 +11,5 @@
 | 0006 |                                                              |                                                              |      |
 | 0007 | [整数反转](https://leetcode-cn.com/problems/reverse-integer/) |          [Java](src/0007-reverse-integer/Main.java)          | 简单 |
 | 0009 | [回文数](https://leetcode-cn.com/problems/palindrome-number/) |         [Java](src/0009-palindrome-number/Main.java)         | 简单 |
+| 0206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) |        [Java](src/0206-reverse-linked-list/Main.java)        | 简单 |
 
