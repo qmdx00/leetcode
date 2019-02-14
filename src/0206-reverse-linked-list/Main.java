@@ -6,8 +6,21 @@ import java.util.Stack;
  * @id #0206
  */
 
+/**
+ *      ListNode res = null;
+        ListNode next = null;
+        ListNode p = head;
+        while(p != null) {
+            next = p.next;
+            p.next = res;
+            res = p;
+            p = next;
+        }
+        return res;
+ */
+
 class Solution {
-    public ListNode reverseList(ListNode head) {
+    public ListNode reverseList(ListNode head, int m, int n) {
         ListNode res = null;
         ListNode next = null;
         ListNode p = head;
@@ -39,7 +52,7 @@ public class Main {
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(5);
 
-        traverseList(solution.reverseList(head));
+        traverseList(solution.reverseList(head, 2, 4));
     }
 
     static void traverseList(ListNode head) {
