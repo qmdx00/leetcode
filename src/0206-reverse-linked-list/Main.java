@@ -6,41 +6,18 @@ import java.util.Stack;
  * @id #0206
  */
 
-/*
 class Solution {
     public ListNode reverseList(ListNode head) {
-        ListNode pre = null, next = null;
-        ListNode cur = head;
-
-        while(cur != null) {
-            next = cur.next;
-            cur.next = pre;
-            pre = cur;
-            cur = next;
-        }
-        return pre;
-    }
-}
-*/
-
-class Solution {
-    public ListNode reverseList(ListNode head) {
-        Stack<Integer> s = new Stack<>();
-
-        ListNode res = new ListNode(0);
+        ListNode res = null;
+        ListNode next = null;
         ListNode p = head;
-        ListNode q = res;
-
         while(p != null) {
-            s.push(p.val);
-            p = p.next;
+            next = p.next;
+            p.next = res;
+            res = p;
+            p = next;
         }
-
-        while(!s.isEmpty()) {
-            q.next = new ListNode(s.pop());
-            q = q.next;
-        }
-        return res.next;
+        return res;
     }
 }
 
