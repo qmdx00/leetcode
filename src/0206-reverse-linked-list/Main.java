@@ -6,7 +6,22 @@ import java.util.Stack;
  * @id #0206
  */
 
+/*
+class Solution {
+    public ListNode reverseList(ListNode head) {
+        ListNode pre = null, next = null;
+        ListNode cur = head;
 
+        while(cur != null) {
+            next = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = next;
+        }
+        return pre;
+    }
+}
+*/
 
 class Solution {
     public ListNode reverseList(ListNode head) {
