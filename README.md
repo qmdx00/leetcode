@@ -11,4 +11,5 @@
 | 0024 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) |        [Java](src/0024-swap-nodes-in-pairs/Main.java)        | 中等 |
 | 0141 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) |         [Java](src/0141-linked-list-cycle/Main.java)         | 简单 |
 | 0206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) |        [Java](src/0206-reverse-linked-list/Main.java)        | 简单 |
+| 0495 | [提莫攻击](https://leetcode-cn.com/problems/teemo-attacking) |          [Java](src/0495-teemo-attacking/Main.java)          | 中等 |
 
