@@ -4,8 +4,8 @@ import java.util.Stack;
 
 /**
  * @author yuanweimin(aszed)
- * @title linked-list-cycle
- * @id #0141
+ * @title valid-parentheses
+ * @id #0020
  */
 
 class Solution {
