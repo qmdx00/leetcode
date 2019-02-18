@@ -46,6 +46,35 @@ class Solution {
 }
 */
 
+/*
+class Solution {
+
+    List<Integer> res = new ArrayList<>();
+
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        if (nums.length == 0 || k == 0) return new int[0];
+        for (int i=0, j=k-1;j<nums.length;i++, j++) {
+            res.add(adjust(i, j, nums));
+        }
+        int[] arr = new int[res.size()];
+        for (int i=0;i<res.size();i++) {
+            arr[i] = res.get(i);
+        }
+        return arr;
+    }
+
+    public int adjust(int i, int j, int[] nums) {
+        int max = Integer.MIN_VALUE;
+        for (int n=i;n<=j;n++) {
+            if (nums[n] > max) {
+                max = nums[n];
+            }
+        } 
+        return max;
+    }
+}
+*/
+
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (nums.length == 0 || k == 0) return new int[0];
