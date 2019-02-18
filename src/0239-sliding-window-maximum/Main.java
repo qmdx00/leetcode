@@ -51,41 +51,23 @@ class Solution {
 */
 
 class Solution {
-
-    List<Integer> res = new LinkedList<>();
-    
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (nums.length == 0 || k == 0) return new int[0];
-        Deque<Integer> deque = new LinkedList<>();
+        Deque<Integer> win = new LinkedList<>();
         int count = 0;
-        for (int ele : nums)
-            adjust(deque, ele, k, count++);
-        int[] arr = new int[res.size()];
-        for (int i = 0; i < res.size(); i++) {
-            arr[i] = res.get(i);
-        }
-        return arr;
-    }
-
-    public void adjust(Deque deque, int val, int k, int count) {
-        if (deque.size() == 0) {
-            deque.offerFirst(val);
-        } else if (deque.size() > k) {
-            deque.pollLast();
-            deque.offerFirst(val);
-        } else if ((int)deque.peekFirst() >= val) {
-            deque.offerFirst(val);
-        } else if ((int)deque.peekFirst() < val) {
-            while (!deque.isEmpty()) {
-                if ((int)deque.peekFirst() < val) {
-                    deque.pollFirst();
-                } else break;
+        int[] res = new int[nums.length - k + 1];
+        for (int i = 0; i < nums.length; i++) {
+            if (i >= k && win.peekLast() <= i - k) {
+                win.pollLast();
             }
-            deque.offerFirst(val);
+            while (!win.isEmpty() && nums[win.peekFirst()] <= nums[i]) {
+                win.pollFirst();
+            }
+            win.offerFirst(i);
+            if (i >= k - 1)
+                res[count++] = nums[win.peekLast()];
         }
-        
-        if (count >= k - 1)
-            res.add((int)deque.peekLast());
+        return res;
     }
 }
 
