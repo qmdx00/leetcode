@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -19,6 +20,7 @@ class Solution {
 }
 */
 
+/*
 class Solution {
     public boolean isAnagram(String s, String t) {
         Map<Character, Integer> sm = new HashMap();
@@ -38,6 +40,34 @@ class Solution {
             }
         }
         return sm.equals(tm);
+    }
+}
+*/
+
+class Solution {
+    public boolean isAnagram(String s, String t) {
+
+        if (s == null || t == null)
+            return false;
+
+        if (s.length() != t.length())
+            return false;
+            
+        final int INIT_SIZE = 26;
+        int[] sa = new int[INIT_SIZE];
+        int[] ta = new int[INIT_SIZE];
+
+        for (Character ch : s.toCharArray()) {
+            sa[ch - 'a'] += 1;
+        }
+        for (Character ch : t.toCharArray()) {
+            ta[ch - 'a'] += 1;
+        }
+        for (int i = 0; i < INIT_SIZE; i++) {
+            if (sa[i] != ta[i])
+                return false;
+        }
+        return true;
     }
 }
 
