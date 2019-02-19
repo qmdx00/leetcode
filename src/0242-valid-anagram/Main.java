@@ -50,21 +50,17 @@ class Solution {
             return false;
         if (s.length() != t.length())
             return false;
-
+        
         final int INIT_SIZE = 26;
         int[] sa = new int[INIT_SIZE];
         int[] ta = new int[INIT_SIZE];
-
-        for (Character ch : s.toCharArray()) {
-            sa[ch - 'a'] += 1;
+        
+        for (int i = 0; i < s.length(); i++) {
+            sa[s.charAt(i) - 'a']++;
+            ta[t.charAt(i) - 'a']++;
         }
-        for (Character ch : t.toCharArray()) {
-            ta[ch - 'a'] += 1;
-        }
-        for (int i = 0; i < INIT_SIZE; i++) {
-            if (sa[i] != ta[i])
-                return false;
-        }
+        for (int i = 0; i < INIT_SIZE; i++)
+            if (sa[i] != ta[i]) return false;
         return true;
     }
 }
