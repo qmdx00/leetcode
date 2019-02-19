@@ -46,13 +46,11 @@ class Solution {
 
 class Solution {
     public boolean isAnagram(String s, String t) {
-
         if (s == null || t == null)
             return false;
-
         if (s.length() != t.length())
             return false;
-            
+
         final int INIT_SIZE = 26;
         int[] sa = new int[INIT_SIZE];
         int[] ta = new int[INIT_SIZE];
