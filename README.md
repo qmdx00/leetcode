@@ -16,4 +16,4 @@
 | 0242 | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) |           [Java](src/0242-valid-anagram/Main.java)           | 简单 |
 | 0495 | [提莫攻击](https://leetcode-cn.com/problems/teemo-attacking) |          [Java](src/0495-teemo-attacking/Main.java)          | 中等 |
 | 0703 | [数据流中的第k大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/) |  [Java](src/0703-kth-largest-element-in-a-stream/Main.java)  | 简单 |
-
+| 0771 | [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/) |         [Java](src/0771-jewels-and-stones/Main.java)         | 简单 |
