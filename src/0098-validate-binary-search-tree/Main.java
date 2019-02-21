@@ -10,7 +10,6 @@ import java.util.List;
 class Solution {
     private List<Integer> list = new ArrayList<>();
     public boolean isValidBST(TreeNode root) {
-        if (root == null) return true;
         InOrder(root);
         for (int i = 1; i< list.size(); i++) {
             if (list.get(i-1) >= list.get(i))
@@ -19,6 +18,7 @@ class Solution {
         return true;
     }
     void InOrder(TreeNode root) {
+        if (root == null) return;
         if (root.left != null) 
             InOrder(root.left);
         list.add(root.val);
