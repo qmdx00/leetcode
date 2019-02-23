@@ -6,15 +6,24 @@
 
 class Solution {
     public double myPow(double x, int n) {
-        return 0.0;
+        double res = 1.0;
+        if (n > 0) {
+            for (int i = 0; i < n; i++)
+                res *= x;
+        } else if (n < 0) {
+            for (int i = 0; i < -n; i++) {
+                res *= 1.0 / x;
+            }
+        }
+        return res;
     }
 }
 
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        double x = 2.00;
-        int n = 10;
+        double x = 2.00000;
+        int n = -2;
         System.out.println(solution.myPow(x, n));
     }
 }
