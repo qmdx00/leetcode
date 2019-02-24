@@ -41,3 +41,6 @@ void recursion(int level, int... params) {
 }
 ```
 
+### asciinema
+
+[![asciicast](https://asciinema.org/a/Sq7D2TDIFHvFY2mcHDY9qSVwz.svg)](https://asciinema.org/a/Sq7D2TDIFHvFY2mcHDY9qSVwz)
