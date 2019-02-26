@@ -36,6 +36,6 @@ public class Main {
 	public static void main(String[] args) {
 		Solution solution = new Solution();
 		int[] nums = { 1, 2, 2, 4, 5, 3, 2 };
-		System.out.println(solution.majorityElement(nums));
+        System.out.println(solution.majorityElement(nums));
 	}
 }
