@@ -13,6 +13,7 @@
 | 0050 |    [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)     |              [Java](src/0050-powx-n/Main.java)               | 中等 |
 | 0098 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) |    [Java](src/0098-validate-binary-search-tree/Main.java)    | 中等 |
 | 0141 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) |         [Java](src/0141-linked-list-cycle/Main.java)         | 简单 |
+| 0169 | [求众数](https://leetcode-cn.com/problems/majority-element/) |         [Java](src/0169-majority-element/Main.java)          | 简单 |
 | 0206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) |        [Java](src/0206-reverse-linked-list/Main.java)        | 简单 |
 | 0239 | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) |      [Java](src/0239-sliding-window-maximum/Main.java)       | 困难 |
 | 0242 | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) |           [Java](src/0242-valid-anagram/Main.java)           | 简单 |
