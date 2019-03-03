@@ -9,7 +9,6 @@ class Solution {
         if (root == null)
             return 0;
         else {
-            System.out.println(root.val);
             return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
         }
     }
