@@ -12,6 +12,8 @@
 | 0024 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) |        [Java](src/0024-swap-nodes-in-pairs/Main.java)        | 中等 |
 | 0050 |    [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)     |              [Java](src/0050-powx-n/Main.java)               | 中等 |
 | 0098 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) |    [Java](src/0098-validate-binary-search-tree/Main.java)    | 中等 |
+| 0104 | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) |   [Java](src/0104-maximum-depth-of-binary-tree/Main.java)    | 简单 |
+|      | [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) |   [Java](src/0111-minimum-depth-of-binary-tree/Main.java)    | 简单 |
 | 0122 | [买卖股票的最佳时机II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](src/0122-best-time-to-buy-and-sell-stock-ii/Main.java) | 简单 |
 | 0141 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) |         [Java](src/0141-linked-list-cycle/Main.java)         | 简单 |
 | 0169 | [求众数](https://leetcode-cn.com/problems/majority-element/) |         [Java](src/0169-majority-element/Main.java)          | 简单 |
