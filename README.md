@@ -26,7 +26,7 @@
 
 ### 递归模板
 
-```java
+```Text
 void recursion(int level, int... params) {
     // recursion terminator
     if (level > MAX_LEVEL) {
