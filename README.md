@@ -13,7 +13,7 @@
 | 0050 |    [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)     | [Java](src/t0050/Main.java) | 中等 |
 | 0070 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  | [Java](src/t0070/Main.java) | 简单 |
 | 0098 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Java](src/t0098/Main.java) | 中等 |
-|      |   [相同的树](https://leetcode-cn.com/problems/same-tree/)    | [Java](src/t0100/Main.java) | 简单 |
+| 0100 |   [相同的树](https://leetcode-cn.com/problems/same-tree/)    | [Java](src/t0100/Main.java) | 简单 |
 | 0104 | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [Java](src/t0104/Main.java) | 简单 |
 | 0111 | [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | [Java](src/t0111/Main.java) | 简单 |
 | 0122 | [买卖股票的最佳时机II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](src/t0122/Main.java) | 简单 |
