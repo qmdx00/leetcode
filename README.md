@@ -11,6 +11,7 @@
 | 0020 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [Java](src/t0020/Main.java) | 简单 |
 | 0024 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Java](src/t0024/Main.java) | 中等 |
 | 0050 |    [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)     | [Java](src/t0050/Main.java) | 中等 |
+| 0062 | [不同路径](https://leetcode-cn.com/problems/unique-paths/submissions/) | [Java](src/t0062/Main.java) | 中等 |
 | 0070 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  | [Java](src/t0070/Main.java) | 简单 |
 | 0098 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Java](src/t0098/Main.java) | 中等 |
 | 0100 |   [相同的树](https://leetcode-cn.com/problems/same-tree/)    | [Java](src/t0100/Main.java) | 简单 |
