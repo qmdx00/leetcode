@@ -6,6 +6,7 @@
 | :--: | :----------------------------------------------------------: | :-------------------------: | :--: |
 | 0001 |    [两数之和](https://leetcode-cn.com/problems/two-sum/)     | [Java](src/t0001/Main.java) | 简单 |
 | 0002 | [两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [Java](src/t0002/Main.java) | 中等 |
+| 0005 | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [Java](src/t0005/Main.java) | 中等 |
 | 0007 | [整数反转](https://leetcode-cn.com/problems/reverse-integer/) | [Java](src/t0007/Main.java) | 简单 |
 | 0009 | [回文数](https://leetcode-cn.com/problems/palindrome-number/) | [Java](src/t0009/Main.java) | 简单 |
 | 0020 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [Java](src/t0020/Main.java) | 简单 |
