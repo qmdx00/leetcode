@@ -48,10 +48,42 @@ import java.util.*;
  }
  */
 
+/**
+ * 用动态规划，转移方程为 table[i][j] = table[i + 1][j - 1] && s.charAt(i) == s.charAt(j);
+ */
 class Solution {
     public String longestPalindrome(String s) {
+        boolean[][] table = new boolean[s.length()][s.length()];
+        dp(s, table);
+        String longest = "";
+        int max = -1;
+        for (int i = 0; i < table.length; i++) {
+            for (int j = 0; j < table[0].length; j++) {
+                if (table[i][j] && i != j) {
+                    if (Math.abs(i - j) > max) {
+                        max = j - i;
+                        longest = s.substring(i, j + 1);
+                    }
+                }
+            }
+        }
+        return longest;
+    }
 
-        return "";
+    private static void dp(String s, boolean[][] table) {
+        for (int i = 0; i < table.length; i++) {
+            int offset = i;
+            table[i][i] = true;
+            for (int j = 0; j < table[0].length - i; j++) {
+                if (offset == 0) {
+                    table[j][j+offset] = true;
+                } else if (offset == 1) {
+                    table[j][j + offset] = s.charAt(j) == s.charAt(j + offset);
+                } else {
+                    table[j][j + offset] = table[j + 1][j - 1 + offset] && s.charAt(j) == s.charAt(j + offset);
+                }
+            }
+        }
     }
 }
 
