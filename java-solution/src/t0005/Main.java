@@ -1,6 +1,6 @@
 package t0005;
 
-import java.util.*;
+import java.util.Scanner;
 
 /**
  * @author yuanweimin(aszed)
