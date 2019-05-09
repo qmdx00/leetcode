@@ -1,6 +1,7 @@
 /.vscode/
-*.class
-*.iml
+*.class/
+/java-solution/*.iml
+/scala-solution/*.iml
 /.idea/
 /out/
 .attach_*
