@@ -19,8 +19,6 @@ class ListNode(var _x: Int = 0) {
 
 object Solution {
   def addTwoNumbers(l1: ListNode, l2: ListNode): ListNode = {
-    for (ele <- l1) {
-      println(ele)
-    }
+    null
   }
 }
