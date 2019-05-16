@@ -6,7 +6,7 @@
 | :--: | :----------------------------------------------------------: | :----------------------------------------: | :------------------------------------------: | :--: |
 | 0001 |    [两数之和](https://leetcode-cn.com/problems/two-sum/)     | [Java](java-solution/src/t0001/Main.java)  | [Scala](scala-solution/src/s0001/Main.scala) | 简单 |
 | 0002 | [两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [Java](java-solution/src/t0002/Main.java)  |                                              | 中等 |
-| 0003 | [无重复字符的最长字串](<https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/>) | [Java](java-solutionj/src/t0003/Main.java) |                                              | 中等 |
+| 0003 | [无重复字符的最长字串](<https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/>) | [Java](java-solution/src/t0003/Main.java) |                                              | 中等 |
 | 0005 | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [Java](java-solution/src/t0005/Main.java)  |                                              | 中等 |
 | 0007 | [整数反转](https://leetcode-cn.com/problems/reverse-integer/) | [Java](java-solution/src/t0007/Main.java)  |                                              | 简单 |
 | 0009 | [回文数](https://leetcode-cn.com/problems/palindrome-number/) | [Java](java-solution/src/t0009/Main.java)  |                                              | 简单 |
