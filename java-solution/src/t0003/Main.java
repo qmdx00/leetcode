@@ -6,6 +6,8 @@ package t0003;
  * @id #0003
  */
 
+import scala.Char;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -21,22 +23,56 @@ public class Main {
     }
 }
 
-class Solution {
-    private int max = 0;
-    private Queue<Character> queue = new LinkedList<>();
+//class Solution {
+//    private int max = 0;
+//    private Queue<Character> queue = new LinkedList<>();
+//
+//    public int lengthOfLongestSubstring(String s) {
+//        for (int i = 0; i < s.length(); i++) {
+//            queue.clear();
+//            queue.add(s.charAt(i));
+//            for (int j = i + 1; j < s.length(); j++) {
+//                if (!queue.contains(s.charAt(j))) {
+//                    queue.add(s.charAt(j));
+//                } else break;
+//            }
+//            if (max < queue.size()) max = queue.size();
+//            System.out.println(queue);
+//        }
+//        return max;
+//    }
+//}
 
+class Solution {
     public int lengthOfLongestSubstring(String s) {
-        for (int i = 0; i < s.length(); i++) {
-            queue.clear();
-            queue.add(s.charAt(i));
-            for (int j = i + 1; j < s.length(); j++) {
-                if (!queue.contains(s.charAt(j))) {
-                    queue.add(s.charAt(j));
-                } else break;
+        if (s.length() == 0) return 0;
+        if (s.length() == 1) return 1;
+
+        char[] chars = s.toCharArray();
+        int pos = 0;
+        int max = 0;
+
+        for (int i = 0; i < chars.length; i++) {
+            for (int j = pos; j < i; j++) {
+                if (chars[i] == chars[j]) {
+                    pos = j + 1;
+                    break;
+                }
             }
-            if (max < queue.size()) max = queue.size();
-            System.out.println(queue);
+            if (max < i - pos + 1) max = i - pos + 1;
         }
         return max;
     }
 }
+
+// 滑动窗口
+//@Todo
+//class Solution {
+//    private Queue<Character> queue = new LinkedList<>();
+//    public int lengthOfLongestSubstring(String s) {
+//        char[] chars = s.toCharArray();
+//        for (int i = 0; i < chars.length; i++) {
+//
+//        }
+//    }
+//}
