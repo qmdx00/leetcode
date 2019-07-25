@@ -6,7 +6,7 @@ package t0206;
  * @id #0206
  */
 
-/**
+/*
  * https://leetcode-cn.com/problems/reverse-linked-list/
  *
  * 反转一个单链表。

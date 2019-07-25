@@ -6,7 +6,7 @@ package t0771;
  * @id #0771
  */
 
-/**
+/*
  * https://leetcode-cn.com/problems/jewels-and-stones/
  *
  *  给定字符串J 代表石头中宝石的类型，和字符串 S代表你拥有的石头。

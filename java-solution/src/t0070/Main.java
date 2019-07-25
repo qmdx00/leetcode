@@ -6,7 +6,7 @@ package t0070;
  * @id #0070
  */
 
-/**
+/*
  * https://leetcode-cn.com/problems/climbing-stairs/comments/
  * <p>
  * 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。

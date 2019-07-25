@@ -6,7 +6,7 @@ package t0100;
  * @id #0100
  */
 
-/**
+/*
  * https://leetcode-cn.com/problems/same-tree/
  *
  * 给定两个二叉树，编写一个函数来检验它们是否相同。

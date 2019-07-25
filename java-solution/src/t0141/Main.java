@@ -6,7 +6,7 @@ package t0141;
  * @id #0141
  */
 
-/**
+/*
  * https://leetcode-cn.com/problems/linked-list-cycle/
  *
  * 给定一个链表，判断链表中是否有环。

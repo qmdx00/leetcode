@@ -7,7 +7,7 @@ package t0200;
  */
 
 
-/**
+/*
  * https://leetcode-cn.com/problems/number-of-islands/
  *
  * 给定一个由 '1'（陆地）和 '0'（水）组成的的二维网格，计算岛屿的数量。

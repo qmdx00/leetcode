@@ -10,7 +10,7 @@ import java.util.LinkedList;
  * @id #0239
  */
 
-/**
+/*
  * https://leetcode-cn.com/problems/sliding-window-maximum/
  *
  * 给定一个数组 nums，有一个大小为 k 的滑动窗口从数组的最左侧移动到数组的最右侧。

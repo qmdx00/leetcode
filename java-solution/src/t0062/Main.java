@@ -6,7 +6,6 @@ package t0062;
  * @id #0062
  */
 
-
 class Solution {
     public int uniquePaths(int m, int n) {
         int[][] map = new int[n][m];

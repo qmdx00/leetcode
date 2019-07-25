@@ -6,7 +6,7 @@ package t0050;
  * @id #0050
  */
 
-/**
+/*
  * https://leetcode-cn.com/problems/powx-n/
  *
  * 实现 pow(x, n) ，即计算 x 的 n 次幂函数。

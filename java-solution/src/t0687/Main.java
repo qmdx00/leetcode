@@ -6,7 +6,7 @@ package t0687;
  * @id #0687
  */
 
-/**
+/*
  * https://leetcode-cn.com/problems/longest-univalue-path/
  *
  * 给定一个二叉树，找到最长的路径，这个路径中的每个节点具有相同值。

@@ -10,7 +10,7 @@ import java.util.Stack;
  * @id #0020
  */
 
-/**
+/*
  * https://leetcode-cn.com/problems/valid-parentheses/
  *
  * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。

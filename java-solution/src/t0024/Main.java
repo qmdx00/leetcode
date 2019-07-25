@@ -6,7 +6,7 @@ package t0024;
  * @id #0024
  */
 
-/**
+/*
  * https://leetcode-cn.com/problems/swap-nodes-in-pairs/
  *
  * 给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。

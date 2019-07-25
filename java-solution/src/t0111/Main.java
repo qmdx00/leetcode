@@ -6,7 +6,7 @@ package t0111;
  * @id #0111
  */
 
-/**
+/*
  * https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/
  *
  * 给定一个二叉树，找出其最小深度。

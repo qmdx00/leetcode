@@ -6,7 +6,7 @@ package t0495;
  * @id #0495
  */
 
-/**
+/*
  * https://leetcode-cn.com/problems/teemo-attacking/
  *
  * 在《英雄联盟》的世界中，有一个叫 “提莫” 的英雄，他的攻击可以让敌方英雄

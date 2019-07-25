@@ -6,12 +6,7 @@ package t0003;
  * @id #0003
  */
 
-import scala.Char;
-
-import java.util.LinkedList;
-import java.util.Queue;
-
-/**
+/*
  * https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
  * <p>
  * 给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。

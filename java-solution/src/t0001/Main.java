@@ -10,7 +10,7 @@ import java.util.Map;
  * @id #0001
  */
 
-/**
+/*
  * https://leetcode-cn.com/problems/two-sum/
  *
  * 给定一个整数数组 nums 和一个目标值 target，
@@ -53,7 +53,7 @@ class Solution {
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int nums[] = {2, 11, 7, 15};
+        int[] nums = {2, 11, 7, 15};
         System.out.println(Arrays.toString(solution.twoSum(nums, 9)));
     }
 }
