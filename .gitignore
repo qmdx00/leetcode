@@ -5,3 +5,4 @@
 /.idea/
 /out/
 .attach_*
+.DS_Store
