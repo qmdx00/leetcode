@@ -1,8 +1,13 @@
-### [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)
+### Pow(x, n)
+
+描述： [https://leetcode-cn.com/problems/powx-n/](https://leetcode-cn.com/problems/powx-n/)
+难度： 中等
 
 #### 解题
 
-##### 解法1
+##### 方法一
+
+> 循环
 
 ```java
 class Solution {
@@ -18,7 +23,7 @@ class Solution {
 }
 ```
 
-##### 解法2
+##### 方法二
 
 > 递归(timeout)
 
