@@ -1,8 +1,4 @@
-/.vscode/
-*.class/
-/java-solution/*.iml
-/scala-solution/*.iml
-/.idea/
-/out/
-.attach_*
-.DS_Store
+*
+
+!.gitignore
+!*.md
